@@ -1,0 +1,110 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 0;
+}
+
+#menu {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    background-color: black; 
+    margin-bottom: 20px;  
+    margin-top: 0;  
+    z-index: 1;   
+    top: 0;
+    left: 0
+}
+
+nav a {
+    text-decoration: underline;
+    float: right; 
+    margin-right: 20px;
+    margin-top: 20px;
+    color: seashell;
+}
+
+#menu img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+#banner {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 90%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+.bannerText {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#monthlyTea {
+    width: 90%;
+    align-self: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.images {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images img {
+    width: 300px;
+    height: 200px;
+}
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#locationBoxes {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.boxes {
+    width: 300px;
+    margin: 15px 20px;
+    opacity: 1;
+    background-color: black;
+    justify-content: space-around;
+}
+
+#footer {
+    height: 200px;
+}
+
+#copyright {
+    padding-left: 20px;
+    text-align: left;
+}
