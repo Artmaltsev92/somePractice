@@ -1,0 +1,104 @@
+body {
+    background-color: #010165;
+    margin: 0 auto;
+    
+    
+  }
+  .door-row {
+    display: flex;
+    align-content: space-around;
+    margin:0 auto;
+    justify-content: space-around;
+    max-width: 500px;
+  }
+  header {
+    background-color:#00ffff;
+    display:flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items:center;
+  }
+  .door-frame {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px
+  }
+  
+  .title-row {
+    color: #00ffff;
+    display: flex;
+    padding-top: 2em;
+    align-content: space-around;
+    margin:0 auto;
+    justify-content: space-around;
+    font-size:18px;
+    font-family: "Work Sans";
+    max-width: 300px;
+  }
+  
+  .instructions-row {
+    color: #00ffff;
+    display: flex;
+    padding: 1em;
+    align-content: center;
+    justify-content: space-around;
+    margin:0 auto;
+    font-size:12px;
+    font-family: "Work Sans";
+    max-width: 350px;
+  }
+  
+  .instructions-number {
+    padding-right:25px;
+    font-family: "Work Sans";
+    font-size: 36px;
+    color: #00ffff;
+  }
+
+  .instructions-text {
+    padding:10px;
+    font-family: "Work Sans";
+    font-size: 14px;
+    color:#ffffff;
+  }
+
+  .start-row {
+    margin: 0 auto;
+    width: 240px;
+    height: 43px;
+    color: #eb6536;
+    font-family: Work Sans;
+    border: 2px #eb6536 solid;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 21px;
+    margin-top: 21px;
+    cursor: pointer;
+  }
+
+  .score-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    font-family: "Work Sans";
+    color: #00ffff;
+    margin-bottom: 2em;
+  }
+
+  .score-text1 {
+    padding: 1em;
+  }
+
+  .score-text2 {
+    padding: 1em;
+  }
+
+  #score-number {
+    font-size: 36px;
+  }
+
+  #high-score-number {
+    font-size: 36px;
+  }
